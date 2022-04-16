@@ -56,6 +56,6 @@ I (719) wifi: Init static rx buffer num: 10
 I (722) wifi: Init dynamic rx buffer num: 32
 I (727) wifi: wifi power manager task: 0x3ffe369c prio: 21 stack: 2560
 I (760) phy: phy_version: 366.0, ba9923d, Dec 29 2017, 14:25:06, 0, 0
-I (761) wifi: mode : softAP (4c:11:ae:xx:xx:xx)
-I (768) wifi: mode : sta (4c:11:ae:xx:xx:xx) + softAP (4c:11:ae:xx:xx:xx)
-I (771) wifi: mode : softAP (4c:11:ae:xx:xx:xx)
+I (761) wifi: mode : softAP (4c:11:ae:89:f5:d9)
+I (768) wifi: mode : sta (4c:11:ae:89:f5:d8) + softAP (4c:11:ae:89:f5:d9)
+I (771) wifi: mode : softAP (4c:11:ae:89:f5:d9)
