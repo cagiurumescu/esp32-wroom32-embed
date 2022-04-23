@@ -20,7 +20,8 @@ void task_code(void *parameter) {
    // E (20) FreeRTOS: FreeRTOS Task "task1" should not return, Aborting now!
    if (xPortGetCoreID()) {
       for (;;) {
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+         printf("Hello world! running on core %d\n", xPortGetCoreID());
+         vTaskDelay(1000 / portTICK_PERIOD_MS);
       }
    }
 }
